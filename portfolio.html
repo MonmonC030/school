@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<table>
+  <tr>
+    <td class="header" colspan="3">Chen Yuanmeng</td>
+  </tr>
+  <tr>
+    <td class="nav" colspan="3"><a href="index.html">HOME</a> | <a href="portfolio.html">PORTFOLIO</a> | <a href="trivia.html">TRIVIA</a></td>
+  </tr>
+  <tr>
+    <td class="sidebar">
+      <strong>Useful Links</strong>
+      <ul>
+        <li><a href="https://en.ritsumei.ac.jp/" target="_blank">Ritsumeikan Uni</a></li>
+        <li><a href="https://networkx.org/documentation/stable/tutorial.html#drawing-graphs" target="_blank">Python Graphs</a></li>
+        <li><a href="https://ct.ritsumei.ac.jp/ct/course_9601180" target="_blank">Manaba+r ISSE Course</a></li>
+    </ul>
+    </td>
+    <td class="main">
+      <strong>My Portfolio</strong><br><br>
+      <table>
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Personal Website</td>
+            <td>Created a personal site using HTML, CSS, and JavaScript.</td>
+            <td>July 2025</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Worked for Aiper</td>
+            <td>Worked in cusotmer setvice for 1 year</td>
+            <td>2023.4-2024.3</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Drink shop work</td>
+            <td>Worked in a milk tea shop for 1 year</td>
+            <td>2024.4-2024.12</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Study in Ritsumeikan Uni</td>
+            <td>Studies in Ritsumeikan Uni</td>
+            <td>2025.4-</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Volunteer work</td>
+            <td>volunteer work in autism center</td>
+            <td>November 2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </td>
+    <td class="contact">
+      <strong>Contact Me</strong><br>
+      <form id="contactForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+      </form>
+      <p id="formResponse"></p>
+    </td>
+  </tr>
+  <tr>
+    <td class="footer" colspan="3">&copy; 2025 Chen Yuanmeng. All rights reserved. | <a href="mailto:is0855hr@ed.ritsumei.ac.jp">Contact Me</a></td>
+  </tr>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

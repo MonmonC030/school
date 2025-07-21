@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td class="header" colspan="3">ChenYuanmeng | Website Exercise 4</td>
+    </tr>
+    <tr>
+        <td class="nav" colspan="3"><a href="index.html">HOME</a> | <a href="portfolio.html">PORTFOLIO</a> | <a href="trivia.html">TRIVIA</a></td>
+    </tr>
+    <tr>
+        <td class="sidebar">
+            <strong>Useful Links</strong>
+            <ul>
+                <li><a href="https://en.ritsumei.ac.jp/" target="_blank">Ritsumeikan Uni</a></li>
+                <li><a href="https://networkx.org/documentation/stable/tutorial.html#drawing-graphs" target="_blank">Python Graphs</a></li>
+                <li><a href="https://ct.ritsumei.ac.jp/ct/course_9601180" target="_blank">Manaba+r ISSE Course</a></li>
+            </ul>
+        </td>
+        <td class="main">
+            <strong>About Me</strong><br>
+My name is Monika, and I'm a student at Ritsumeikan University. I studies 4 years of history in high school and here I am studying for programming! I found it interesting coding and the exerience of liberties let me have a different view of studying coding. Although it is a little bit difficulties encountered in the first place, i am getting on track now. Although I hope I have better grades in the next semester... I studied Javascript in high school and I worked for an American IT company for a year, that grants me experience in this field and more intersets. Let us get on the journey together.
+<br><br>
+<img class="image-crop" src="https://en.ritsumei.ac.jp/image.jsp?id=337870" alt="Students in Ritsumeikan Uni">
+        </td>
+        <td class="contact">
+            <strong>Contact Me</strong><br>
+            <form id="contactForm">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+            </form>
+            <p id="formResponse"></p>
+        </td>
+    </tr>
+    <tr>
+        <td class="footer" colspan="3">&copy; 2025 Chen Yuanmeng. All rights reserved. | <a href="mailto:is0855hr@ed.ritsumei.ac.jp">Contact Me</a></td>
+    </tr>
+</table>
+
+</body>
+</html>
