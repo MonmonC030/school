@@ -35,9 +35,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const bmi = weight / ((height / 100) ** 2);
     let category = "";
   
-    if (bmi < 18.5) category = "Underweight";
-    else if (bmi < 25) category = "Normal";
-    else if (bmi < 30) category = "Overweight";
+    if (bmi < 18.5) category = "girl u should eat more!";
+    else if (bmi < 25) category = "girl u slayyy";
+    else if (bmi < 30) category = "girl u beautiful but u should care about ur health";
     else category = "Obese";
   
     result.textContent = `Your BMI is ${bmi.toFixed(1)}. Category: ${category}.`;
